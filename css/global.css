@@ -1,0 +1,161 @@
+/* IMPORTANT: UNLESS SAID OTHERWISE, ALL CODE (learned outside of class) WAS LEARNED WITH CHATGPT, AN AI SYSTEM BY OPENAI: chat.openai.com */
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Mali:ital@1&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+body {
+  /* background-image: url(../img/paper.jpg); */
+  font-family: "Mali", cursive;
+  color: rgb(0, 0, 0);
+  text-shadow: 10 10 5px rgb(255, 255, 255);
+  background-color: #e4d3b7;
+}
+#title {
+  /* left: 50%;
+  transform: translateX(-50%); */
+  font-size: 125px;
+  white-space: nowrap;
+  z-index: 1;
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+#slogan {
+  /* left: 50%;
+  top: 130px;
+  transform: translateX(-50%); */
+  font-size: 35px;
+  white-space: nowrap;
+  z-index: 1;
+  text-align: center;
+  margin-top: 0px;
+}
+:root {
+  --style: {
+    /* position: absolute; */
+    color: white;
+    z-index: 2;
+    font-size: 15px;
+  }
+}
+#saladboi-1,
+#waterpipes-2,
+#jesus-3,
+#tools-4,
+#pointystick-5,
+#war-6,
+#dead-7 {
+  --style: var(--style);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: #939393;
+  border-radius: 6px;
+  border-style: solid;
+  padding: 10px 10px 10px 10px;
+  margin: 50px 50px 50px 50px;
+  height: 500px;
+  overflow: auto;
+}
+img {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #947e5f;
+}
+.navbar {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav-link {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #f5e1c1;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+.nav-link:hover {
+  background-color: #c1a98e;
+  color: #dcc4a4;
+  border-radius: 3px;
+}
+.heading {
+  font-size: 25px;
+}
+
+/* Style for the element that will be highlighted */
+/* .nav-link:target { */
+/* animation-name: highlight; */
+/* animation-duration: 750ms; */
+/* animation-iteration-count: 1; */
+/* } */
+
+/* Define the keyframes for the highlight animation  */
+/* @keyframes highlight { */
+/* from { */
+/* background-color: #ffff00; */
+/* } */
+/* to { */
+/* background-color: #ffff0000; */
+/* } */
+/* } */
+
+#saladboi-1 {
+  float: left;
+}
+#waterpipes-2 {
+  float: right;
+  width: 500px;
+}
+#jesus-3 {
+  float: right;
+  width: 500px;
+}
+#tools-4 {
+  float: left;
+  width: 500px;
+}
+#pointystick-5 {
+  float: left;
+  width: 500px;
+}
+#war-6 {
+  float: right;
+  width: 500px;
+  margin-bottom: 50px;
+}
+#dead-7 {
+  float: left;
+  width: 500px;
+  margin-bottom: 50px;
+}
+/* NOT MINE; FROM HERE https://codepen.io/merlynm/pen/bBOWJo */
+/* Custom CSS Scrollbar */
+.css-scrollbar::-webkit-scrollbar-track {
+  background-color: #ddd;
+}
+
+.css-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background-color: #ddd;
+}
+
+.css-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #666;
+}
+.bold {
+  font-weight: bold;
+}
